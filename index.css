@@ -150,13 +150,13 @@ body {
   background-color: #fff;
   margin-right: 31px;
   margin-top: -80px;
-  padding: 10px 10px;
+  padding: 10px 10px 20px 10px;
 }
 
 .card-image {
   display: flex;
   justify-content: center;
-  padding: 31px;
+  padding: 10px 31px 31px 31px;
 }
 
 .card-title {
@@ -513,6 +513,7 @@ footer {
 
 .footer {
   color: #fff;
+  text-align: center;
 }
 
 
@@ -676,5 +677,7 @@ footer {
   .number-item {
       font-size: 23px;
   }
-
+  .burgers-img {
+    display: none;
+  }
 }
