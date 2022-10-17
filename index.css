@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
   font-family: "Open Sans", sans-serif;
 }
 
@@ -262,52 +263,50 @@ body {
 
 /* конец истории */
 
-
-.black-block{
+.black-block {
   background-image: url(img/bbg.jpg);
-padding: 80px 0;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.left-title{
-  color: #D67E34;
+.left-title {
+  color: #d67e34;
   font-family: "Tinos", serif;
   font-size: 52px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.left-text{
-
+.left-text {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
 }
 
-.right-btn{
-
+.right-btn {
   background-color: #ff7400;
   text-decoration: none;
   color: #fff;
   font-weight: 700;
   font-size: 14px;
   padding: 14px 18px;
+  display: flex;
 }
 
-.right-btn:hover{
+.right-btn:hover {
   transition: color 0.2s linear;
   background-color: #80290ffb;
-
 }
 
-.block-holder{
+.block-holder {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 /* black-block конец */
 
-
-.dishes-title{
+.dishes-title {
   font-family: "Tinos", serif;
   font-size: 54px;
   font-weight: 400;
@@ -316,32 +315,106 @@ padding: 80px 0;
   margin-bottom: 139px;
 }
 
-.dishes-title span{
+.dishes-title span {
   color: #ff7400;
 }
 
-
-.burgers{
+.burgers {
   display: flex;
   justify-content: center;
 }
 
-.burger-item{
+.burger-item {
   display: flex;
   align-items: center;
   margin-bottom: 29px;
-
-  
 }
 
-.burgers-img{
+.burgers-img {
   margin-right: 20px;
 }
 
-.burger-text{
+.burger-text {
   font-family: "Tinos", serif;
   font-size: 26px;
   margin-left: 20px;
-
 }
 
+/* конец меню */
+
+.menu {
+  background-image: url(img/bgmenu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.menu-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  
+  color: #fff;
+  padding-top: 98px;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+.menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-right: 25px;
+}
+
+.menu-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.menu-subtext {
+  font-size: 16px;
+}
+
+.menu-btn {
+  background-color: #d67e34;
+  text-decoration: none;
+  padding: 14px 67px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px #00000040;
+
+}
+  
+
+.menu-buttun {
+  margin-top: 20px;
+}
+
+.price-image{
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+  
+}
+
+.menu-image{
+  position: relative;
+}
+
+.price-420{
+  position: absolute;
+  bottom: 30px;
+  right: 85px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.menu-items{
+  display: flex;
+  justify-content: center;
+}
